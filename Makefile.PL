@@ -18,5 +18,12 @@ WriteMakefile(
         'Nginx::Perl'       => 0,
     },
 
+    (eval $ExtUtils::MakeMaker::VERSION >= 6.46
+         ? ( 'META_MERGE' => { 
+                 'no_index' => { 
+                     'directory' => ['eg'] 
+                 } 
+             } ) : ()),
+
 );
 
