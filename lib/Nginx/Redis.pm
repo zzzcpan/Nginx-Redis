@@ -278,7 +278,7 @@ Alexandr Gomoliako <zzz@zzz.org.ua>
 Copyright 2011 Alexandr Gomoliako. All rights reserved.
 
 This module is free software. It may be used, redistributed and/or modified 
-under the same terms as B<nginx> itself.
+under the same terms as Perl itself.
 
 =cut
 
