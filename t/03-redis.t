@@ -6,16 +6,6 @@ use strict;
 use warnings;
 no  warnings 'uninitialized';
 
-BEGIN {
-    use Test::More;
-
-    eval { require Redis::Parser::XS };
-    
-    diag ("$@"),
-      plan skip_all => "Cannot load Redis::Parser::XS"
-             if  $@;
-}
-
 use Data::Dumper;
 use Test::More;
 use Nginx::Test;
