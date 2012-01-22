@@ -15,7 +15,7 @@ WriteMakefile(
 
     PREREQ_PM => {
         'Redis::Parser::XS' => 0,
-        'Nginx::Perl'       => 0,
+        'Nginx::Perl'       => '1.1.13.1',
     },
 
     (eval $ExtUtils::MakeMaker::VERSION >= 6.46
